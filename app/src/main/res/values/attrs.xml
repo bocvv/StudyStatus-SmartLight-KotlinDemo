@@ -1,0 +1,12 @@
+<resources>
+    <declare-styleable name="CameraKitView">
+        <attr name="cameraFacing" format="enum">
+            <enum name="back" value="0" />
+            <enum name="front" value="1" />
+        </attr>
+        <attr name="cameraPreviewWidth" format="integer" />
+        <attr name="cameraPreviewHeight" format="integer" />
+        <attr name="cameraCaptureWidth" format="integer" />
+        <attr name="cameraCaptureHeight" format="integer" />
+    </declare-styleable>
+</resources>
